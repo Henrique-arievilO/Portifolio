@@ -9,12 +9,17 @@ export const GlobalStyle = createGlobalStyle`
         text-decoration: none;
     }
 
+    body{
+        background-color: var(--colorViolet);
+    }
+
     :root{
         --colorBlack: #000;
         --colorViolet: #2c062c;
         --colorMagenta:  #ff1a59;
         --colorPurple: #840084;
         --colorCyan:  #0aeff0;
+        --colorWhite: #fff;
 
         --primaryFont: 'Baloo 2', cursive;
         --secundaryFont: 'Inter', sans-serif;

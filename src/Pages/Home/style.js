@@ -57,12 +57,14 @@ export const Box = styled.div`
     height: 60vh;
     margin-top: 2rem;
     padding: 1rem;
+    border-top: 3px solid var(--colorPurple);
+    border-bottom: 3px solid var(--colorPurple);
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
     backdrop-filter: blur(5px);
-    box-shadow: 5px 5px 20px #000;
+    box-shadow: 5px 5px 20px var(--colorBlack);
 
     @media (max-width: 840px) {
         flex-direction: column-reverse;
@@ -85,7 +87,7 @@ export const Title = styled.h1`
     font-family: var(--primaryFont);
     font-size: 3rem;
     line-height: 4rem;
-    filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(5px 5px 5px var(--colorBlack));
     animation: ${animateGradient} 5s linear infinite both;
 
     @media (max-width: 840px) {
@@ -114,7 +116,7 @@ export const Figure = styled.figure`
 export const Image = styled.img`
     width: 90%;
     border-radius: 50%;
-    box-shadow: -5px -5px 10px #000;
+    box-shadow: -5px -5px 10px var(--colorBlack);
 
     @media (max-width: 840px) {
         width: 80%;
@@ -131,21 +133,21 @@ export const SocialMedia = styled.div`
     align-items: center;
     background-color: transparent;
     backdrop-filter: blur(5px);
-    box-shadow: 5px 5px 20px #000;
+    box-shadow: 5px 5px 20px var(--colorBlack);
 `
 export const Link = styled.a`
     width: 40px;
     height: 40px;
 
     &:hover i{
-        color: #ff1a59;
+        color: var(--colorMagenta);
     }
 
     i{
         font-size: 40px;
-        color: #0aeff0;
+        color: var(--colorCyan);
         transition: 1s all;
-        filter: drop-shadow(3px 3px 2px #000);
+        filter: drop-shadow(3px 3px 2px var(--colorBlack));
     }
 
     @media (max-width: 500px) {
