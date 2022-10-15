@@ -10,6 +10,7 @@ export const About = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
+    
 
     /* @media (max-width: 1366px) {
         height: 100vh;
@@ -22,8 +23,8 @@ export const Container = styled.section`
     width: 100%;
     margin: 0 auto;
     padding: .5rem 1rem;
-    background-color: var(--colorBlack);
-    opacity: .8;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
     box-shadow: 5px 5px 20px var(--colorBlack);
     color: var(--colorWhite);
 

@@ -12,7 +12,7 @@ export default function Projects() {
         slidesToShow: 3,
         autoplay: false,
         enableKeyboardControls: true, //=> Passa no automático
-        wrapAround: true
+        wrapAround: true,
     };
 
     const projects = [
@@ -70,7 +70,6 @@ export default function Projects() {
 
     return (
         <>
-            <S.Title>Meus projetos</S.Title>
             <Carousel {...carouselStyle}>
                 {projects.map((i) => (
                     <>
@@ -81,7 +80,6 @@ export default function Projects() {
                     </>
                 ))}
             </Carousel>
-
         </>
     )
 }

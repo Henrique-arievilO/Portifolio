@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: var(--colorViolet);
+        background-color: var(--colorBlack);
     }
 
     :root{

@@ -2,19 +2,13 @@ import styled, { keyframes } from "styled-components";
 
 const animateGradient = keyframes`
     0%, 100%{
-        background: #ff1a59;
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    25%, 75%{
-        background: #840084;
+        background: #0aeff0;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     50%{
-        background: #0aeff0;
+        background: #ff1a59;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -85,10 +79,10 @@ export const TextBox = styled.div`
 `
 export const Title = styled.h1`
     font-family: var(--primaryFont);
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 4rem;
     filter: drop-shadow(5px 5px 5px var(--colorBlack));
-    animation: ${animateGradient} 5s linear infinite both;
+    animation: ${animateGradient} 5s linear both;
 
     @media (max-width: 840px) {
         font-size: 2.5rem;
@@ -107,7 +101,7 @@ export const Figure = styled.figure`
     justify-content: center;
     align-items: center;
     @media (max-width: 840px) {
-        width: 60%;
+        width: 50%;
     }
     @media (max-width: 500px) {
         width: 80%;

@@ -38,7 +38,7 @@ export const Border = styled.div`
     border: 4px double var(--colorCyan);
     padding: .5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 `
@@ -48,14 +48,7 @@ export const Title = styled.h3`
     font-family: var(--actionFont);
     font-weight: 300;
 `
-export const P = styled.p`
-    font-size: 14px;
-    text-align: center;
-    color: #fff;
-    font-family: var(--actionFont);
-    font-weight: 300;
-`
 export const Image = styled.img`
     width: 70px;
-    animation: ${animateFlip} 3s infinite linear;
+    animation: ${animateFlip} 3s 1 linear;
 `
