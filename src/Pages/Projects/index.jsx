@@ -1,5 +1,4 @@
 import React from 'react';
-import Carousel from 'nuka-carousel/lib/carousel';
 import * as S from './style';
 import PP from '../../assets/cards/02.png';
 import CEP from '../../assets/cards/04.png';
@@ -8,12 +7,6 @@ import HP from '../../assets/cards/07.png';
 import SW from '../../assets/cards/08.png';
 
 export default function Projects() {
-    let carouselStyle = {
-        slidesToShow: 3,
-        autoplay: false,
-        enableKeyboardControls: true, //=> Passa no automático
-        wrapAround: true,
-    };
 
     const projects = [
         {
@@ -69,17 +62,17 @@ export default function Projects() {
     ]
 
     return (
-        <>
-            <Carousel {...carouselStyle}>
+        <S.About>
+            <S.Container>
                 {projects.map((i) => (
-                    <>
+                    <div>
                         <S.Card key={i.id} href={i.link} target="_blank">
                             <S.Image src={i.image} alt={i.name} />
                         </S.Card>
                         <S.Subtitle>{i.name}</S.Subtitle>
-                    </>
+                    </div>
                 ))}
-            </Carousel>
-        </>
+            </S.Container>
+        </S.About>
     )
 }

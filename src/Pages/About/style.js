@@ -10,6 +10,7 @@ export const About = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-position-y: -180deg;
     
 
     /* @media (max-width: 1366px) {
@@ -49,8 +50,9 @@ export const SubTitle = styled.h2`
     text-align: center;
     margin: .5rem auto 0;
     color: var(--colorWhite);
-    background: var(--colorBlack);
-    opacity: .8;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    box-shadow: 5px 5px 20px var(--colorBlack);
 
     @media (max-width: 840px) {
         width: 85%;

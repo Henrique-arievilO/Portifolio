@@ -47,6 +47,7 @@ export const Title = styled.h3`
     color: #fff;
     font-family: var(--actionFont);
     font-weight: 300;
+    text-align: center;
 `
 export const Image = styled.img`
     width: 70px;

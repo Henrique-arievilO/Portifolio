@@ -22,6 +22,11 @@ export default function hardSkils() {
             id: 4,
             logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             nome: 'React JS',
+        },
+        {
+            id: 5,
+            logo: "https://pbs.twimg.com/media/FfLLA5GXoAAVo1X?format=png&name=small",
+            nome: 'Styled Components',
         }
     ]
 

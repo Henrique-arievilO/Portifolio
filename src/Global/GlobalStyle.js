@@ -25,4 +25,8 @@ export const GlobalStyle = createGlobalStyle`
         --secundaryFont: 'Inter', sans-serif;
         --actionFont: 'Josefin Sans', sans-serif;
     }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
 `
