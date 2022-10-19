@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Background from "../../assets/image/bgProjects.jpg";
+import Background from "../../assets/image/bgProjectsBlur.jpg";
 
 export const About = styled.section`
     width: 100%;
@@ -87,13 +87,17 @@ export const Subtitle = styled.h3`
     backdrop-filter: blur(50px);
     box-shadow: 5px 5px 20px 5px var(--colorBlack);
     cursor: pointer;
-
-    &:hover{
-        color: var(--colorCyan);
-    }
 `
 
 export const Image = styled.img`
     width: 100%;
     height: 100%;
+`
+export const A = styled.a`
+    color: var(--colorWhite);
+    font-weight: 300;
+
+    &:hover{
+        color: var(--colorCyan);
+    }
 `

@@ -16,7 +16,7 @@ const animateGradient = keyframes`
 `
 const animateZoom = keyframes`
     0%{
-        transform: scale(1.3);
+        transform: scale(5);
     }
     100%{
         transform: scale(1);

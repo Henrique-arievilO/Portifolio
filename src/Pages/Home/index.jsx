@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './style';
 import ProfilePhoto from '../../assets/image/profilePhoto.jpg';
-import Background from '../../assets/image/bgHome.jpg';
+import Background from '../../assets/image/bgHomeBlur.jpg';
 
 export default function Home() {
     return (

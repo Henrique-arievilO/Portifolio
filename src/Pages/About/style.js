@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Background from "../../assets/image/bgAbout.jpg";
+import Background from "../../assets/image/bgAboutBlur.jpg";
 
 export const About = styled.section`
     width: 100%;
