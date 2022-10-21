@@ -18,6 +18,13 @@ export const About = styled.section`
         height: 100%;
     }
 `
+export const Title = styled.h1`
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: var(--colorCyan);
+    font-family: var(--actionFont);
+`
 export const Container = styled.section`
     width: 90%;
     margin: 0 auto 4rem;

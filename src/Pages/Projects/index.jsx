@@ -2,10 +2,13 @@ import React from 'react';
 import * as S from './style';
 import ONU from '../../assets/cards/01.png';
 import PP from '../../assets/cards/02.png';
+// import BB from '../../assets/cards/03.png';
 import CEP from '../../assets/cards/04.png';
 import IMC from '../../assets/cards/05.png';
+import Count from '../../assets/cards/06.png';
 import HP from '../../assets/cards/07.png';
 import SW from '../../assets/cards/08.png';
+import Devflix from '../../assets/cards/09.png'
 
 export default function Projects() {
 
@@ -15,14 +18,14 @@ export default function Projects() {
             image: ONU,
             name: 'ONU',
             link: 'https://ods-uberlandia-onu.netlify.app',
-            github: 'https://github.com/Wanderson-Henrique-Oliveira/ONU'
+            github: 'https://github.com/Henrique-arievilO/ONU'
         },
         {
             id: 2,
             image: PP,
             name: 'Pair Programming',
             link: 'https://betterrecipes.netlify.app',
-            github: 'https://github.com/Wanderson-Henrique-Oliveira/Desafio-Pair-Programming'
+            github: 'https://github.com/Henrique-arievilO/Desafio-Pair-Programming'
         },
         {
             id: 3,
@@ -34,43 +37,48 @@ export default function Projects() {
             image: CEP,
             name: 'Zip Code Finder',
             link: 'https://zipcodefinder.netlify.app',
-            github: 'https://github.com/Wanderson-Henrique-Oliveira/zip-code-finder'
+            github: 'https://github.com/Henrique-arievilO/zip-code-finder'
         },
         {
             id: 5,
             image: IMC,
             name: 'IMC Calc',
             link: "https://imccalculator22.netlify.app",
-            github: 'https://github.com/Wanderson-Henrique-Oliveira/IMC-Calc'
+            github: 'https://github.com/Henrique-arievilO/IMC-Calc'
         },
         {
             id: 6,
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: 'Cronômetro',
+            image: Count,
+            name: 'Contador',
+            link: "https://purplecounter.herokuapp.com/",
+            github: 'https://github.com/Henrique-arievilO/Counter-2.0'
         },
         {
             id: 7,
             image: HP,
             name: 'Harry Potter API',
             link: "https://oli-wander.herokuapp.com",
-            github: 'https://github.com/Wanderson-Henrique-Oliveira/Harry-Potter-API'
+            github: 'https://github.com/Henrique-arievilO/Harry-Potter-API'
         },
         {
             id: 8,
             image: SW,
             name: 'Star Wars',
             link: 'https://wanderson-henrique-oliveira.github.io/M1T2-Tecnico-Desafio-Final-Star-Wars/',
-            github: 'https://github.com/Wanderson-Henrique-Oliveira/M1T2-Tecnico-Desafio-Final-Star-Wars'
+            github: 'https://github.com/Henrique-arievilO/M1T2-Tecnico-Desafio-Final-Star-Wars'
         },
         {
             id: 9,
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: 'Netflix',
+            image: Devflix,
+            name: 'Devflix',
+            link: 'https://wanderflix.netlify.app/',
+            github: 'https://github.com/Henrique-arievilO/Devflix'
         },
     ]
 
     return (
         <S.About>
+            <S.Title>Clique na imagem para ver o site ou no nome para ver o código.</S.Title>
             <S.Container>
                 {projects.map((i) => (
                     <div>
