@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+<img src="https://i.ibb.co/QpLTKSz/badge-M2-T2.png" alt="Badge Vai Na Web T2.1" width="150" align="right">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Final Challenge - Blog pessoal
 
-## Available Scripts
+<i>Projeto desenvolvido como desafio referente ao módulo 2 do curso Vai na Web de desenvolvimento front-end. </i><br><br>
 
-In the project directory, you can run:
+<div align="center">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Henrique-arievilO/Portifolio?color=indigo">
+    <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/Henrique-arievilO/Portifolio?color=indigo">
+    <img alt="GitHub Total lines" src="https://img.shields.io/tokei/lines/github/Henrique-arievilO/Portifolio?color=indigo">
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Henrique-arievilO/Portifolio?color=indigo">
 
-### `npm start`
+</div><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Nesse projeto, fomos instigados a trabalhar de forma livre todo o conteúdo aprendido ao longo destes meses criando um blog pessoal que contivesse links para redes sociais e para os principais projetos desenvolvidos ao longo do curso.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Todos os detalhes foram definidos previamente e não houve dificuldades na execução. O resultado final foi um projeto com uma estética mais voltada para a temática retrowave onde pode-se usar de elementos estéticos comuns ao CSS através da biblioteca Styled-Components, ao mesmo tempo em que conseguiu se aliar uniformemente a elementos lógicos de JS por meio do React.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Como melhoria futura, pretendo anexar mais projetos conforme necessidade e otimizar a forma de contato.
