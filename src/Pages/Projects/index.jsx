@@ -31,8 +31,8 @@ export default function Projects() {
             id: 3,
             image: BB,
             name: 'BabyBat',
-            link: 'https://github.com/Henrique-arievilO/M1T2-English-Challenge-01-Gothic-Page',
-            github: 'https://github.com/Henrique-arievilO/zip-code-finder'
+            link: 'https://henrique-arievilo.github.io/M1T2-English-Challenge-01-Gothic-Page/',
+            github: 'https://github.com/Henrique-arievilO/M1T2-English-Challenge-01-Gothic-Page'
         },
         {
             id: 4,
