@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './style';
 import ONU from '../../assets/cards/01.png';
 import PP from '../../assets/cards/02.png';
-// import BB from '../../assets/cards/03.png';
+import BB from '../../assets/cards/03.png';
 import CEP from '../../assets/cards/04.png';
 import IMC from '../../assets/cards/05.png';
 import Count from '../../assets/cards/06.png';
@@ -29,8 +29,10 @@ export default function Projects() {
         },
         {
             id: 3,
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            image: BB,
             name: 'BabyBat',
+            link: 'https://github.com/Henrique-arievilO/M1T2-English-Challenge-01-Gothic-Page',
+            github: 'https://github.com/Henrique-arievilO/zip-code-finder'
         },
         {
             id: 4,
@@ -64,7 +66,7 @@ export default function Projects() {
             id: 8,
             image: SW,
             name: 'Star Wars',
-            link: 'https://wanderson-henrique-oliveira.github.io/M1T2-Tecnico-Desafio-Final-Star-Wars/',
+            link: 'https://henrique-arievilo.github.io/M1T2-Tecnico-Desafio-Final-Star-Wars/',
             github: 'https://github.com/Henrique-arievilO/M1T2-Tecnico-Desafio-Final-Star-Wars'
         },
         {
